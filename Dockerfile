@@ -1,4 +1,4 @@
-FROM registry.battery-park.conductor.com/alpine:3.4.0
+FROM registry.battery-park.conductor.com/alpine-base:3.4.0
 
 RUN apk --update add \
       python \
